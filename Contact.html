@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Contact</title>
+
+	<style>
+		body {
+			background-color: #34f4ab;
+			margin: 0;
+		}
+
+		#navtop {
+			padding: 30px;
+			display: inline-block;
+			font-family: monospace;
+			font-size: 35px;
+			text-decoration: none;
+			color: #ffffff;
+		}
+
+		#links {
+			background-color: #000000;
+		}
+
+		img {
+			max-width: 100%;
+		}
+
+		.bodytext {
+			max-width: 850px;
+			margin: 0 auto;
+		}
+
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		input[type=text],
+		select,
+		textarea {
+			width: 100%;
+			padding: 12px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			margin-top: 6px;
+			margin-bottom: 16px;
+			resize: vertical;
+		}
+
+		input[type=submit] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 8px 5px;
+			border: 10px;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+			background-color: #45a049;
+		}
+
+		.container {
+			border-radius: 5px;
+			background-color: #cccccc;
+			padding: 20px;
+		}
+
+		body {
+			background-color: #34f4ab;
+		}
+	</style>
+</head>
+<header>
+	<div id="links">
+		<nav>
+			<a href="index.html" id="navtop">Home</a>|
+			<a href="About.html" id="navtop">About</a> |
+			<a href="Resume.html" id="navtop">Resume</a> |
+			<a href="Contact.html" id="navtop">Contact</a> |
+
+		</nav>
+	</div>
+</header>
+
+<body>
+	<div class="bodytext">
+
+		<img src="bowery.jpg">
+		<h3>
+			<p>
+				For those who feel I statisfied their criteria and want to do plan an interview date or have any inquires about my work please use the contact form below and I'll response to you as soon as I can. My LinkedIn is below my contact form for those interested to connect with me or perfer to chat on there.
+			</p>
+		</h3>
+		<a href="
+https://www.linkedin.com/in/darin-redfox-9409a9167">
+					<img src="LinkedInLogo.png" alt="Darin LinkedIn"></a>
+	</div>
+
+	<center>
+		<h1>Contact Form</h1>
+	</center>
+	<div class="container">
+		<form action="/action_page.php">
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" placeholder="Your name..">
+
+			<label for="email">Email</label>
+			<input type="text" id="email" name="email" placeholder="Email..">
+
+			<label for="country">Country</label>
+			<select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+			<label for="subject">Message</label>
+			<textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+
+			<input type="submit" value="Submit">
+			<a href="mailto:DarinRedfox@gmail.com?Subject=Hello%20again" target="_top">Send Mail</a>
+		</form>
+	</div>
+
+</body>
+
+</html>
